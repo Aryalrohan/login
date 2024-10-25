@@ -72,50 +72,47 @@ body {
     left: 100px;
 }
 
-/* Existing CSS styles */
-
-/* Existing CSS styles */
 
 .form {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start; /* Align items to the left */
-    width: 50%; /* Adjust the width as needed */
+    align-items: flex-start; 
+    width: 50%; 
     height: 100%;
     padding: 20px;
 }
 
 
 h2 {
-    text-align: center; /* Center the text horizontally */
+    text-align: center; 
     top: 50px;
 }
 
 .input-field {
-    width: 100%; /* Ensure input fields take up full width */
-    margin-bottom: 15px; /* Add some spacing between input fields */
+    width: 100%;
+    margin-bottom: 15px; 
 }
 
 .btn {
     margin-top: 20px;
     align-self: center;
     font-weight: bold;
-    border: 2px solid blue; /* Add a blue border around the button */
-    padding: 10px 20px; /* Add padding to give space inside the border */
-    background-color: transparent; /* Set background color to transparent */
-    color: blue; /* Set text color to blue */
-    cursor: pointer; /* Add cursor pointer for better user interaction */
-    transition: background-color 0.3s, color 0.3s; /* Add transition effect */
+    border: 2px solid blue; 
+    padding: 10px 20px;
+    background-color: transparent; 
+    color: blue;
+    cursor: pointer; 
+    transition: background-color 0.3s, color 0.3s; 
 }
 
 .btn:hover {
-    background-color: blue; /* Change background color on hover */
-    color: white; /* Change text color on hover */
+    background-color: blue; 
+    color: white;
 }
 
 
-/* Existing CSS styles */
+
 
 .design {
     position: relative;
@@ -126,7 +123,7 @@ h2 {
 }
 
 .form {
-    width: 50%; /* Adjust the width as needed */
+    width: 50%; 
     padding: 20px;
     position: absolute;
     top: 50%;
