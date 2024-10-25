@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+    border: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(-45deg, #7f379b, #ffa26c);
+}
+
+.box {
+    width: 900px;
+    height: 400px;
+    background-color: #fff;
+    box-shadow: 0 0 15px #00000033;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+}
+
+.design div:first-child {
+    width: 190px;
+    height: 90px;
+    border-radius: 50px;
+    background: linear-gradient(-90deg, #7f379b, #ff6a85);
+    transform: rotate(45deg);
+    position: absolute;
+    top: -40px;
+    left: 120px;
+}
+
+.design div:nth-child(2) {
+    width: 450px;
+    height: 230px;
+    border-radius: 200px;
+    background: linear-gradient(-90deg, #7f379b, #ff6a85);
+    transform: rotate(45deg);
+    position: absolute;
+    top: 0;
+    left: -163px;
+    border: 25px solid #e2c4e0;
+}
+
+.design div:nth-child(3) {
+    width: 190px;
+    height: 70px;
+    border-radius: 50px;
+    background: linear-gradient(-90deg, #7f379b, #ff92a6);
+    transform: rotate(45deg);
+    position: absolute;
+    bottom: 70px;
+    left: -100px;
+}
+
+.design div:last-child {
+    width: 190px;
+    height: 70px;
+    border-radius: 50px;
+    background: linear-gradient(-90deg, #7f379b, #ffa26c);
+    transform: rotate(45deg);
+    position: absolute;
+    bottom: -50px;
+    left: 100px;
+}
+
+/* Existing CSS styles */
+
+/* Existing CSS styles */
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; /* Align items to the left */
+    width: 50%; /* Adjust the width as needed */
+    height: 100%;
+    padding: 20px;
+}
+
+
+h2 {
+    text-align: center; /* Center the text horizontally */
+    top: 50px;
+}
+
+.input-field {
+    width: 100%; /* Ensure input fields take up full width */
+    margin-bottom: 15px; /* Add some spacing between input fields */
+}
+
+.btn {
+    margin-top: 20px;
+    align-self: center;
+    font-weight: bold;
+    border: 2px solid blue; /* Add a blue border around the button */
+    padding: 10px 20px; /* Add padding to give space inside the border */
+    background-color: transparent; /* Set background color to transparent */
+    color: blue; /* Set text color to blue */
+    cursor: pointer; /* Add cursor pointer for better user interaction */
+    transition: background-color 0.3s, color 0.3s; /* Add transition effect */
+}
+
+.btn:hover {
+    background-color: blue; /* Change background color on hover */
+    color: white; /* Change text color on hover */
+}
+
+
+/* Existing CSS styles */
+
+.design {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.form {
+    width: 50%; /* Adjust the width as needed */
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+}
+
+.input-field {
+    width: 100%;
+    margin-bottom: 15px;
+}
+.form h2{
+    margin-bottom: 15px;
+}
+.input-field{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 15px;
+    font-size: 1em;
+    color:#000;
+    background-color:#e2c4e0;
+}
+
+
